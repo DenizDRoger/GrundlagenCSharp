@@ -5,23 +5,25 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methoden_Uebung1", "Methoden_Uebung1\Methoden_Uebung1.csproj", "{FC3181E1-774D-43AA-BBBB-3A9C68B0B5B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array bubble sort", "array bubble sort\array bubble sort.csproj", "{E81890C4-E39D-47DD-8709-B10BC526FF78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "array bubble sort", "array bubble sort\array bubble sort.csproj", "{E81890C4-E39D-47DD-8709-B10BC526FF78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schleifen uebungA1", "schleifen uebungA1\schleifen uebungA1.csproj", "{5DECD03C-34AC-4A14-A468-F870C584CB46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "schleifen uebungA1", "schleifen uebungA1\schleifen uebungA1.csproj", "{5DECD03C-34AC-4A14-A468-F870C584CB46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schleifen uebungA2", "schleifen uebungA2\schleifen uebungA2.csproj", "{63973EB9-C1B9-4306-A7DD-A7EE5D6D1787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "schleifen uebungA2", "schleifen uebungA2\schleifen uebungA2.csproj", "{63973EB9-C1B9-4306-A7DD-A7EE5D6D1787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schleifen uebungenA3", "schleifen uebungenA3\schleifen uebungenA3.csproj", "{D0916473-17DF-4005-82E7-D952C095A8BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "schleifen uebungenA3", "schleifen uebungenA3\schleifen uebungenA3.csproj", "{D0916473-17DF-4005-82E7-D952C095A8BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schleifen uebungenA4", "schleifen uebungenA4\schleifen uebungenA4.csproj", "{741E5B5E-D169-42F5-8273-5ECA38AC5D4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "schleifen uebungenA4", "schleifen uebungenA4\schleifen uebungenA4.csproj", "{741E5B5E-D169-42F5-8273-5ECA38AC5D4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schleifen uebungenA5", "schleifen uebungenA5\schleifen uebungenA5.csproj", "{A67B63F3-44D4-49EF-A5DC-43248128401E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "schleifen uebungenA5", "schleifen uebungenA5\schleifen uebungenA5.csproj", "{A67B63F3-44D4-49EF-A5DC-43248128401E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schleifen uebungenA6", "Schleifen uebungenA6\Schleifen uebungenA6.csproj", "{AEE3EA35-9856-42B4-B21D-27D01B711ABD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schleifen uebungenA6", "Schleifen uebungenA6\Schleifen uebungenA6.csproj", "{AEE3EA35-9856-42B4-B21D-27D01B711ABD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schleifen uebungenA7", "Schleifen uebungenA7\Schleifen uebungenA7.csproj", "{D54F2706-4272-419F-B40B-DFCDB56B095F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Schleifen uebungenA7", "Schleifen uebungenA7\Schleifen uebungenA7.csproj", "{D54F2706-4272-419F-B40B-DFCDB56B095F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schleifen uebungenA8", "schleifen uebungenA8\schleifen uebungenA8.csproj", "{F61A16E0-A9BB-474C-BDB1-01A3C6C3DD44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "schleifen uebungenA8", "schleifen uebungenA8\schleifen uebungenA8.csproj", "{F61A16E0-A9BB-474C-BDB1-01A3C6C3DD44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methoden_uebung_hotel", "Methoden_uebung_hotel\Methoden_uebung_hotel.csproj", "{D1A09F0F-B9C8-4DC4-9A54-BC49292F422D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{F61A16E0-A9BB-474C-BDB1-01A3C6C3DD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F61A16E0-A9BB-474C-BDB1-01A3C6C3DD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F61A16E0-A9BB-474C-BDB1-01A3C6C3DD44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A09F0F-B9C8-4DC4-9A54-BC49292F422D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A09F0F-B9C8-4DC4-9A54-BC49292F422D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A09F0F-B9C8-4DC4-9A54-BC49292F422D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A09F0F-B9C8-4DC4-9A54-BC49292F422D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
