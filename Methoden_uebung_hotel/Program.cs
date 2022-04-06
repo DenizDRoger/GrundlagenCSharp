@@ -6,42 +6,88 @@ namespace Methoden_uebung_hotel
     {
         static void Main(string[] args)
         {
-            
-            short[] zimmernummern = { 45, 23, 3, 32 };
+            bool richtig = false;
+            bool richtig2 = false;
+            string nachname;
+            short zimmernummer;
+            string[] zimmernummern = { "45", "23", "3", "32" };
             string[] vornamen = { "John", "Paul", "Geroge", "Ringo" };
             string[] nachnamen = { "Lennon", "McCartney", "Harrison", "Starr" };
             short[] übernachtungen = { 1, 4, 12, 3 };
             double[] rechnungsbetrag = {82.46, 329.84, 989.52, 247.38};
-            int i = 0;
 
-            Console.WriteLine("bitte geben sie ihren nachnamen oder ihre zimmernummer an");
-            string eingabe_Str = Console.ReadLine();
-            short eingabe_Short;
+            Console.WriteLine("Bitte geben Sie ihren Nachnamen oder ihre Zimmernummer ein:");
+           
+            
+            nachname = Console.ReadLine();
+            if (Int16.TryParse(nachname, out zimmernummer))
+            {
+                richtig2 = GetData(richtig);
+            }
 
-            bool flag = short.TryParse(eingabe_Str, out eingabe_Short);
-            if (flag == false )
+            else
             {
-                Console.WriteLine("daten gefunden");
+
             }
-            else if (flag != false)
-            {
-                Console.WriteLine("daten nicht da  ");
-            }
-                
+
+
+
+            Console.WriteLine();
+
+            
+
+
+
+
+
+
         }
-        static (bool, short, string, string, short,double) GetData(string diff, string[] nachnamen, string[] vornamen, short[] übernachtungen, double[] rechnungsbetrag, bool richtig)
+        static bool GetData(string nachname, string[] nachnamen, string[] vornamen, short[] übernachtungen, double[] rechnungsbetrag, bool richtig)
         {
-            bool flag = false;
-            int index = 0;
-            for (int i = 0; i < nachnamen.Length; i++)
+            if (eingabe == nachnamen)
             {
-
-                {if (diff == nachnamen[i])
-                    index = i ;
-                    flag = true;
-                }
+                richtig = true;
             }
-            return (flag, nachnamen[index], vornamen[index], übernachtungen[index], rechnungsbetrag[index]);
+
+            else if (eingabe == zimmernummern)
+            {
+                richtig = true;
+            }
+
+            else
+            {
+                ausgabe = "Ihre Eingabe ist falsch.";
+                richtig = false;
+            }
+
+            
+
+            return richtig;
+        }
+
+        static bool GetData(short zimmernummer, short[]zimmernummern, string[] vornamen, short[] übernachtungen, double[] rechnungsbetrag, bool richtig)
+        {
+            if (eingabe == nachnamen)
+            {
+                ausgabe = "hallo";
+                richtig = true;
+            }
+
+            else if (eingabe == zimmernummern)
+            {
+                ausgabe = "hallo";
+                richtig = true;
+            }
+
+            else
+            {
+                ausgabe = "Ihre Eingabe ist falsch.";
+                richtig = false;
+            }
+
+
+
+            return richtig;
         }
     }
 }
